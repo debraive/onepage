@@ -1,0 +1,197 @@
+#first_block{
+  width: 100%;
+  background-image: url(images/patternhaut.jpg);
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+#menu{
+  width: 100%;
+  color: #FFFFFF;
+}
+
+ul {
+  text-align: center;
+  display: flex;
+  margin: 0 auto;
+  width: 80%;
+  height: 25px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  margin-bottom: 45px;
+  background-color: #FFFFFF;
+  justify-content: space-between;
+
+ }
+li {
+  list-style: none;
+  font-family: 'Pompiere';
+  font-size: 20px;
+  text-transform: uppercase;
+  width: 20%;
+  color: black;
+  float: left;
+  text-align: center;
+
+
+ }
+#menu img{
+  width: 200px;
+  height: 80px;
+  float: left;
+  margin-top: -25px;
+}
+#menu  li a{
+  color: #004772;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.first_p{
+  width: 60%;
+  display: block;
+  margin: auto;
+  text-align: justify;
+  font-family: 'Open sans';
+  font-size: 14px;
+  background-color: #cae4d9;
+  padding: 40px;
+  color: black;
+  line-height: 20pt;
+
+}
+
+#Boutique{
+  width: 100%;
+  background-color: #FFC400;
+  padding-bottom: 50px;
+}
+
+#Boutique .bg{
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin:0 auto;
+}
+
+#Boutique h4{
+    width: 60%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Pompiere';
+    font-size: 30px;
+    color: #FFFFFF;
+    padding-top: 20px;
+}
+#Boutique img{
+  width: 230px;
+  height: 230px;
+  border: 3px solid #FFFFFF;
+  display: block;
+  margin: 25px;
+}
+#Depot{
+  background-image: url(images/pattern_block2.png);
+  width: 100%;
+  padding-bottom: 50px;
+}
+#Depot h4{
+  width: 60%;
+  display: block;
+  margin: auto;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Pompiere';
+  font-size: 30px;
+  color: black;
+  padding-top: 20px;
+}
+
+.img{
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+#Depot img{
+  width: 25%;
+  height: 30%;
+  border: 3px solid #cae4d9;
+  margin: 0 auto;
+
+}
+#Depot p{
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 15px;
+  text-align: justify;
+  font-family: 'Open sans';
+  font-size: 14px;
+  background-color: #cae4d9;
+  padding: 40px;
+  color: black;
+  line-height: 20pt;
+  padding-bottom: 30px;
+
+}
+
+#Contact{
+  background-color: #FFC400;
+  width: 100%;
+  padding-bottom: 50px;
+}
+#Contact h4{
+  width: 60%;
+  display: block;
+  margin: auto;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Pompiere';
+  font-size: 30px;
+  color: #FFFFFF;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.fourth_p img{
+  width: 200px;
+  height: 80px;
+}
+
+.fourth_p{
+    width: 25%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-family: 'Open sans';
+    text-transform: uppercase;
+    font-size: 14px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    color: black;
+    line-height: 20pt;
+
+  }
+@media screen and (max-width: 1196px) {
+li{
+  width: 20%;
+}
+
+#Boutique .bg{
+  width: 70%;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width : 830px){
+li {
+  font-size: 15px;
+}
+#menu img{
+  width: 150px;
+  height: 60px;
+}
+#Depot img{
+}

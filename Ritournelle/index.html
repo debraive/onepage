@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+     <link rel="stylesheet" href="styles.css">
+     <link href="https://fonts.googleapis.com/css?family=Pompiere" rel="stylesheet">
+    <title>LA RITOURnELLE</title>
+  </head>
+  <body>
+<div id="main">
+  <div id='first_block'>
+    <div id="menu">
+      <ul>
+        <li><a href="">Le projet</a></li>
+        <li><a href="" id="Boutique_1">Boutique</a></li>
+        <img src="images/logo.png" alt="logo">
+        <li><a href="" id="Depot_1">Depot et Vente</a></li>
+        <li><a href="" id="Contact_1">Contact</a></li>
+      </ul>
+    </div>
+    <div class='first_p'>
+      <p>
+        La Ritournelle est une boutique de vêtements de seconde main pour enfants de 0 à 8 ans, basé sur
+        le principe de dépôt-vente. On y trouve un choix varié de vêtements porteurs d’une histoire et d’une
+        beauté intemporelle. Les vêtements sont sélectionnés avec goût, ils sont actuels et de qualité. Ce sont 
+        des pièces uniques, de marque, présentées dans un cadre à la fois contemporain et coloré, dans une volonté
+        de dépoussiérer l’image que l’on se fait de la seconde main.
+        </p>
+    </div>
+  </div>
+    <div id="Boutique">
+      <h4>Boutique</h4>
+      <div class="bg">
+        <img src="images/boutique1.jpg" alt="boutique1">
+        <img src="images/boutique2.jpg" alt="boutique2">
+        <img src="images/boutique3.jpg" alt="boutique3">
+        <img src="images/boutique4.jpg" alt="boutique4">
+    </div>
+    </div>
+
+    <div id="Depot">
+      <h4>Dépot et Vente</h4>
+      <div class="third_p">
+      <p>
+      La surconsommation de vêtements concerne les enfants dès le plus jeune âge. Les enfants grandissent
+      très vite et il faut constamment renouveler leur garde-robe. Les vêtements trop petits ne servent plus et
+      sont souvent stockés inutilement. Inscrite dans une démarche de slow fashion et d’économie circulaire, la vente de vêtements de seconde
+      main permet de faire des achats uniques, beaux et responsables. La boutique de dépôt-vente de vêtements pour
+      enfants s’inscrit dans une démarche d’économie circulaire : elle repousse l’échéance de la transformation du
+      vêtement en déchet et se positionne comme un acteur économique supplémentaire dans le cycle d’utilisation d’un vêtement.
+      </p>
+      </div>
+        <div class="img">
+          <img src="images/depot.jpg" alt="depot">
+          <img src="images/depot1.jpg" alt="depot">
+          <img src="images/depot2.jpg" alt="depot">
+        </div>
+
+    </div>
+    <div id='Contact'>
+      <h4>Contact</h4>
+    <div class="fourth_p">
+      <img src="images/logo.png" alt="logo"> <br>
+      Rue des paquerettes 98 <br>
+      1030 Schaerbeek <br> <br>
+    <strong>  Horaires<br>
+      Lu au ve 10h à 18h <br>
+      Sa 9h à 17h <br> </strong>
+      </div>
+  </div>
+</div>
+<script type="text/javascript">
+  var Boutique = document.querySelector("#Boutique_1");
+  var Depot = document.querySelector('#Depot_1');
+  var Contact= document.querySelector('#Contact_1');
+  var Boutique_Link= document.querySelector('#Boutique');
+  var Depot_Link = document.querySelector("#Depot");
+  var contact_Link = document.querySelector("#Contact");
+
+Boutique.addEventListener("click", function (e) {
+    e.preventDefault();
+    window.scroll({
+        top: Boutique_Link.offsetTop,
+        left: 0,
+        behavior: 'smooth'
+    });
+  });
+  Depot.addEventListener("click",function (e){
+    e.preventDefault();
+    window.scroll({
+        top: Depot_Link.offsetTop,
+        left:0,
+        behavior:'smooth'
+    });
+  });
+  Contact.addEventListener("click", function(e){
+    e.preventDefault ();
+    window.scroll({
+      top:contact_Link.offsetTop,
+      left:0,
+      behavior:'smooth'
+    });
+  });
+</script>
+  </body>
+</html>
