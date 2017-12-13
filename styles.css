@@ -47,6 +47,9 @@ li {
   font-style: normal;
   text-decoration: none;
 }
+#logoMobile{
+  display: none;
+}
 
 .first_p{
   width: 60%;
@@ -196,4 +199,22 @@ li {
   height: 60px;
 }
 #Depot img{
+}
+@media screen and (max-width: 480px){
+#logoDesktop{
+  display: none;
+}
+#logoMobile{
+  display: block;
+}
+
+ul{
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background: #FFFFFF;
+  height: 120px;
+  align-items: center;
+  padding: 20px;
+}
 }
