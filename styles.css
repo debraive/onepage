@@ -170,6 +170,7 @@ li {
     width: 25%;
     display: block;
     margin: auto;
+    min-width: 227px;
     text-align: center;
     font-family: 'Open sans';
     text-transform: uppercase;
