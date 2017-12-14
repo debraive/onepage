@@ -76,8 +76,7 @@ li {
 }
 
 #Boutique h4{
-    width: 28%;
-    background-color: #FFFFFF;
+    width: 60%;
     display: block;
     margin: auto;
     text-align: center;
@@ -100,7 +99,8 @@ li {
   padding-bottom: 50px;
 }
 #Depot h4{
-  width: 60%;
+  width: 28%;
+  background-color: #FFFFFF;
   display: block;
   margin: auto;
   text-align: center;
